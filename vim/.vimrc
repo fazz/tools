@@ -1,8 +1,8 @@
 set autoindent
 set cindent
 set tabstop=4
+set expandtab
 set shiftwidth=4
-set noexpandtab
 set hlsearch
 set ruler
 set modeline
@@ -26,4 +26,5 @@ if &t_Co > 1
     set background=dark
 endif
 
+set list listchars=tab:>-,trail:.,extends:>
 
