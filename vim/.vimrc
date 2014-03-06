@@ -7,6 +7,9 @@ set hlsearch
 set ruler
 set modeline
 set modelines=5
+set visualbell
+
+filetype plugin indent on
 
 map <C-J> <C-W>j<C-W>_
 map <C-K> <C-W>k<C-W>_
@@ -27,4 +30,5 @@ if &t_Co > 1
 endif
 
 set list listchars=tab:>-,trail:.,extends:>
+set nolist
 
