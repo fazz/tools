@@ -18,8 +18,8 @@ hi Identifier term=underline	cterm=bold			ctermfg=Cyan guifg=#40ffff
 hi Statement term=bold		ctermfg=Yellow gui=bold	guifg=#aa4444
 hi PreProc	term=underline	ctermfg=DarkRed	guifg=#ff80ff
 hi Type	term=underline		ctermfg=DarkGreen	guifg=#60ff60 gui=bold
-hi Function	term=bold		ctermfg=White guifg=White
-hi Repeat	term=underline	ctermfg=White		guifg=white
+hi Function	term=bold		ctermfg=DarkRed guifg=White gui=bold
+hi Repeat	term=bold	ctermfg=DarkYellow		guifg=white gui=bold
 hi Operator				ctermfg=Red			guifg=Red
 hi Ignore				ctermfg=black		guifg=bg
 hi Error	term=reverse ctermbg=Red ctermfg=White guibg=Red guifg=White

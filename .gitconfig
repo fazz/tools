@@ -1,0 +1,8 @@
+[user]
+	name = Mart Oruaas
+    email = fazz@pobox.com
+[alias]
+	ci = commit -a
+	co = checkout
+[push]
+	default = current
