@@ -5,6 +5,11 @@
 	ci = commit -a
 	co = checkout
 	plog = log --graph --full-history --all --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s"
+	mbod = merge-base origin/develop
+	dh = diff HEAD
+	dns = diff --numstat
+	fo = fetch origin
+	cp = cherry-pick
 
 [push]
 	default = current
